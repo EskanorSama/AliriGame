@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
 public class Movement : Health
@@ -13,9 +14,9 @@ public class Movement : Health
 
     private PlayerStates States = PlayerStates.Idle;
     [HideInInspector]public Rigidbody2D Physick;
-    [SerializeField]private float Speed = 5,Force = 6,DashForce = 10,DashTime = .2f,DashCoolDown = 2f,AttackRange = 3f, JumpRange = 1f, ParryTiming = 0.1f, StepBackForce = 10, StepBackTime = .2f, StepBackCoolDown = 1f,SneakCoolDown =  0.5f;
+    [SerializeField] private float Speed = 5, Force = 6, DashForce = 10, DashTime = .2f, DashCoolDown = 2f, AttackRange = 3f, ParryTiming = 0.1f, StepBackForce = 10, StepBackTime = .2f, StepBackCoolDown = 1f, SneakCoolDown = 0.5f;
     [SerializeField] private LayerMask CeilingLayer,AttackLayer, GroundLayer = 6;
-    [SerializeField] private Transform TopPosition, AttackPoint, JumpPoint;
+    [SerializeField] private Transform TopPosition, AttackPoint;
     private IUsable UsableEntity;
     [SerializeField] private bool CanDoubleJump = true,CanAttack = true;
     private bool CanDash = true, DoubleJump, CanStepBack = true, CanSneak = true;
@@ -85,12 +86,6 @@ public class Movement : Health
             Speed *= 2;
         }
     }
-
-    public bool GetOnGround()
-    {
-        Collider2D collider = Physics2D.OverlapCircle(JumpPoint.position, JumpRange, GroundLayer);
-        return OnGround = collider != null;
-    }
     private IEnumerator Parry()
     {
         IdealParryTiming = true;
@@ -143,7 +138,7 @@ public class Movement : Health
     }
     private void Jump()
     {
-        if (GetOnGround() && States != PlayerStates.Crouch)
+        if (GroundCheck.Instance.GetOnGround() && States != PlayerStates.Crouch)
         {
             Physick.AddForce(transform.up * Force, ForceMode2D.Impulse);
             DoubleJump = true;
@@ -158,7 +153,7 @@ public class Movement : Health
     }
     private void Sneak()
     {
-        if (GetOnGround()) States = PlayerStates.Idle;
+        if (GroundCheck.Instance.GetOnGround()) States = PlayerStates.Idle;
         if(States == PlayerStates.Idle && CanSneak)
         {
             Speed /= 2;
@@ -194,7 +189,7 @@ public class Movement : Health
     }
     private IEnumerator StepBack()
     {
-        if (States != PlayerStates.Crouch && CanStepBack && GetOnGround())
+        if (States != PlayerStates.Crouch && CanStepBack && GroundCheck.Instance.GetOnGround())
         {
             Physick.velocity = new Vector2(0, Physick.velocity.y); ;
             CanStepBack = false;
@@ -285,8 +280,8 @@ public class Movement : Health
     private void OnDrawGizmos()
     {
         if(AttackPoint != null)Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
-        if(JumpPoint != null)Gizmos.DrawWireSphere(JumpPoint.position, JumpRange);
     }
+
 
     public override void OnDamaged(int damage)
     {

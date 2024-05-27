@@ -56,7 +56,7 @@ public class CameraMove : MonoBehaviour
     }
     private IEnumerator IncreaseScreen(float Screen,bool ItX = true,float ToNum = 1f, bool UnFreeze = false)
     {
-        if (Movement.Instance.GetOnGround())
+        if (GroundCheck.Instance.GetOnGround())
         {
             Movement.Instance.Freeze();
             while (Screen < ToNum)
@@ -79,7 +79,7 @@ public class CameraMove : MonoBehaviour
     }
     private IEnumerator DecreaseeScreen(float Screen, bool ItX = true, float ToNum = 0, bool UnFreeze = false)
     {
-        if (Movement.Instance.GetOnGround())
+        if (GroundCheck.Instance.GetOnGround())
         {
             Movement.Instance.Freeze();
             while (Screen > ToNum)
