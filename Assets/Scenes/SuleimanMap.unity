@@ -56942,6 +56942,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 811420227837530480, guid: 95d3fce11981d18448f21b49140d50f8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77d799796769c3448a5a2a44e982aaa, type: 2}
     - target: {fileID: 8086562596567696767, guid: 95d3fce11981d18448f21b49140d50f8, type: 3}
       propertyPath: m_Name
       value: DecorationSpriteSheet_17 (2) Variant
@@ -57275,6 +57279,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8330677125834188718, guid: 022f5bc4e34329142956c1ee5fd8a384, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77d799796769c3448a5a2a44e982aaa, type: 2}
     - target: {fileID: 8459020839808701098, guid: 022f5bc4e34329142956c1ee5fd8a384, type: 3}
       propertyPath: m_Name
       value: DecorationSpriteSheet_20 (1)
@@ -58369,6 +58377,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8330677125834188718, guid: 022f5bc4e34329142956c1ee5fd8a384, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77d799796769c3448a5a2a44e982aaa, type: 2}
     - target: {fileID: 8459020839808701098, guid: 022f5bc4e34329142956c1ee5fd8a384, type: 3}
       propertyPath: m_Name
       value: DecorationSpriteSheet_20 (2)
@@ -85737,6 +85749,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1441364738932239403, guid: 328e41300a87465479a196b8c48edf7d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77d799796769c3448a5a2a44e982aaa, type: 2}
     - target: {fileID: 1545040448658066922, guid: 328e41300a87465479a196b8c48edf7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.8407278
@@ -100882,6 +100898,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8330677125834188718, guid: 022f5bc4e34329142956c1ee5fd8a384, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77d799796769c3448a5a2a44e982aaa, type: 2}
     - target: {fileID: 8459020839808701098, guid: 022f5bc4e34329142956c1ee5fd8a384, type: 3}
       propertyPath: m_Name
       value: DecorationSpriteSheet_20
