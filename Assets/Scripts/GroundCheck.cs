@@ -23,9 +23,9 @@ public class GroundCheck : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == GroundLayer)
+        if (collision.gameObject.layer == GroundLayer && enabled)
         {
-            if(enabled)StartCoroutine(Delay());
+            StartCoroutine(Delay());
         }
     }
     private IEnumerator Delay()
