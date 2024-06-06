@@ -2469,7 +2469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5567979127488011694}
   - component: {fileID: 1137885892946572489}
-  - component: {fileID: 2464917358414866060}
+  - component: {fileID: 4879723078537220623}
   m_Layer: 0
   m_Name: JumpPoint
   m_TagString: Untagged
@@ -2505,8 +2505,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpDelay: 0.1
---- !u!58 &2464917358414866060
-CircleCollider2D:
+--- !u!70 &4879723078537220623
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2537,9 +2537,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003791809, y: 0.05435291}
-  serializedVersion: 2
-  m_Radius: 0.13090706
+  m_Offset: {x: -0.0005874634, y: 0.01805973}
+  m_Size: {x: 0.1271286, y: 0.15989923}
+  m_Direction: 0
 --- !u!1 &4899953425442023715
 GameObject:
   m_ObjectHideFlags: 0
