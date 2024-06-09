@@ -1530,6 +1530,88 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &3692109495919512001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508396666812054758}
+  - component: {fileID: 8188993934297552492}
+  - component: {fileID: 3296640175956419758}
+  m_Layer: 0
+  m_Name: FallingCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &508396666812054758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3692109495919512001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0971, y: 0.18772, z: 0}
+  m_LocalScale: {x: 3.0257208, y: 3.0257208, z: 3.0257208}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2799367787629218308}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8188993934297552492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3692109495919512001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec470aa671fff84419cfb7a2cdfdd0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageStartedOn: -12.2
+  OneBlockDamage: 10
+--- !u!70 &3296640175956419758
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3692109495919512001}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.002992194, y: -0.07043457}
+  m_Size: {x: 0.045955412, y: 0.086335115}
+  m_Direction: 0
 --- !u!1 &3701552916460590714
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,7 +2568,7 @@ Transform:
   m_GameObject: {fileID: 4786726214307298120}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 0.119, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.119, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2504,7 +2586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72892b5426244cb459bce3d89d3411c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpDelay: 0.1
+  JumpDelay: 0.3
 --- !u!70 &4879723078537220623
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2972,6 +3054,7 @@ Transform:
   - {fileID: 5228579299524376349}
   - {fileID: 5567979127488011694}
   - {fileID: 1809335236479121775}
+  - {fileID: 508396666812054758}
   m_Father: {fileID: 1817108897026250481}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5223171613286128399
@@ -3074,10 +3157,10 @@ MonoBehaviour:
   CanJump: 1
   Hidden: 0
   IsTouchingLadder: 0
+  Jumped: 0
   AttackCooldown: 0.5
   StrongAttackCooldown: 2
   Damage: 10
-  OnGround: 0
 --- !u!50 &5198350936503410698
 Rigidbody2D:
   serializedVersion: 4
@@ -3440,7 +3523,7 @@ Transform:
   m_GameObject: {fileID: 6821218544371810422}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.30493, y: -6.206, z: -10}
+  m_LocalPosition: {x: 31.312683, y: -3.159, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -20,11 +20,10 @@ public class Movement : Health
     private IUsable UsableEntity;
     [SerializeField] private bool CanDoubleJump = true,CanAttack = true;
     private bool CanDash = true, DoubleJump, CanStepBack = true, CanSneak = true;
-    [HideInInspector] public bool CanJump = true,Hidden = false, IsTouchingLadder = false;
+    [HideInInspector] public bool CanJump = true,Hidden = false, IsTouchingLadder = false,Jumped = false;
     private Transform Transforming;
     [HideInInspector] public float AttackCooldown = 0.5f, StrongAttackCooldown = 2f;
     public int Damage = 15;
-    [HideInInspector] public bool OnGround = false;
     public static Movement Instance { get; private set; }
 
     private void Awake() => Instance = this;
@@ -140,13 +139,16 @@ public class Movement : Health
     {
         if (GroundCheck.Instance.GetOnGround() && States != PlayerStates.Crouch)
         {
+          //Physick.velocity = new Vector2(Physick.velocity.x, 0);
             Physick.AddForce(transform.up * Force, ForceMode2D.Impulse);
             DoubleJump = true;
+            Jumped = true;
             States = PlayerStates.Jump;
         }else if (DoubleJump && CanDoubleJump)
         {
-            Physick.velocity = new Vector2(Physick.velocity.x, 0);
+          //  Physick.velocity = new Vector2(Physick.velocity.x, 0);
             Physick.AddForce(transform.up * Force, ForceMode2D.Impulse);
+            Jumped = false;
             States = PlayerStates.Jump;
             DoubleJump = false;
         }
@@ -223,7 +225,7 @@ public class Movement : Health
         {
             CanDash = false;
             States = PlayerStates.Dash;
-            Physick.velocity = new Vector2(Input.GetAxis("Horizontal") * DashForce, Physick.velocity.y);
+           Physick.velocity = new Vector2(Input.GetAxis("Horizontal") * DashForce, Physick.velocity.y);
             yield return new WaitForSeconds(DashTime);
             States = PlayerStates.Idle;
             yield return new WaitForSeconds(DashCoolDown);
@@ -231,20 +233,6 @@ public class Movement : Health
             yield break;
         }
         yield break;
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == GroundLayer)
-        {
-           // OnGround = true;
-        }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == GroundLayer)
-        {
-           // OnGround = false;
-        }
     }
     private void Using()
     {

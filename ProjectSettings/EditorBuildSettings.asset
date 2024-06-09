@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SuleimanMap.unity
+    guid: 31364ab7d7bbe2049949e8637df4eb20
+  - enabled: 1
     path: Assets/Scenes/GraySquare.unity
     guid: 504b8555b7af9cb4fbba7c016b62460c
   - enabled: 1

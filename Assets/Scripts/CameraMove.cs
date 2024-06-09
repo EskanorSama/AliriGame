@@ -58,7 +58,7 @@ public class CameraMove : MonoBehaviour
     {
         if (GroundCheck.Instance.GetOnGround())
         {
-            Movement.Instance.Freeze();
+          //  Movement.Instance.Freeze();
             while (Screen < ToNum)
             {
                 Screen += CameraTransitionSpeed;
@@ -81,7 +81,7 @@ public class CameraMove : MonoBehaviour
     {
         if (GroundCheck.Instance.GetOnGround())
         {
-            Movement.Instance.Freeze();
+           // Movement.Instance.Freeze();
             while (Screen > ToNum)
             {
                 Screen -= CameraTransitionSpeed;
