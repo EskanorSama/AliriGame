@@ -937,7 +937,7 @@ TextureImporter:
         width: 1215
         height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -958,7 +958,7 @@ TextureImporter:
         width: 1245
         height: 334
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -979,7 +979,7 @@ TextureImporter:
         width: 700
         height: 814
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -987,6 +987,90 @@ TextureImporter:
       bones: []
       spriteID: aad9ed11ea9af6d418f024b2744313cb
       internalID: -1271678665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 1223
+        width: 256
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a51ee50059facd48ab7e3961212fe65
+      internalID: -806644730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 12
+        width: 56
+        height: 796
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b460789ef38c414188075a4121fee91
+      internalID: 664698070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 1396
+        width: 441
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7136d8307e392da48969dbf816fa982a
+      internalID: -1416697323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 14
+        width: 180
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0387cbcff9ff62479009d8cb249c53f
+      internalID: -1481161186
       vertices: []
       indices: 
       edges: []
@@ -1040,6 +1124,9 @@ TextureImporter:
       DecorationSpriteSheet_40: -681433739
       DecorationSpriteSheet_41: -2026112249
       DecorationSpriteSheet_42: 862230473
+      DecorationSpriteSheet_43: 664698070
+      DecorationSpriteSheet_44: -1416697323
+      DecorationSpriteSheet_45: -1481161186
       DecorationSpriteSheet_5: -1699135670
       DecorationSpriteSheet_6: -1271678665
       DecorationSpriteSheet_7: -806644730
