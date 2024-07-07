@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 
 public class Movement : Health
@@ -13,12 +12,13 @@ public class Movement : Health
     }
 
     private PlayerStates States = PlayerStates.Idle;
+    [HideInInspector]public Animator animator;
     [HideInInspector]public Rigidbody2D Physick;
     [SerializeField] private float Speed = 5, Force = 6, DashForce = 10, DashTime = .2f, DashCoolDown = 2f, AttackRange = 3f, ParryTiming = 0.1f, StepBackForce = 10, StepBackTime = .2f, StepBackCoolDown = 1f, SneakCoolDown = 0.5f;
     [SerializeField] private LayerMask CeilingLayer,AttackLayer, GroundLayer = 6;
     [SerializeField] private Transform TopPosition, AttackPoint;
     private IUsable UsableEntity;
-    [SerializeField] private bool CanDoubleJump = true,CanAttack = true;
+    [SerializeField] private bool CanDoubleJump = true,CanAttack = true,Runing = false;
     private bool CanDash = true, DoubleJump, CanStepBack = true, CanSneak = true;
     [HideInInspector] public bool CanJump = true,Hidden = false, IsTouchingLadder = false,Jumped = false;
     private Transform Transforming;
@@ -31,6 +31,7 @@ public class Movement : Health
     {
         Transforming = transform;
         Physick = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
     private void Update()
     {
@@ -46,9 +47,15 @@ public class Movement : Health
         {
             StandUp();
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        /*    if (Input.GetKeyDown(KeyCode.LeftShift))
+             {
+                 StartCoroutine(Dash());
+             }
+        */
+        if (Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxis("Horizontal") != 0)
         {
-            StartCoroutine(Dash());
+            Runing = !Runing;
+            Run();
         }
         if (Input.GetKeyDown(KeyCode.RightControl))
         {
@@ -71,6 +78,7 @@ public class Movement : Health
         {
             Blockign();
         }
+        animator.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal") * Speed));
     } 
     private void Blockign()
     {
@@ -83,6 +91,40 @@ public class Movement : Health
         else
         {
             Speed *= 2;
+        }
+    }
+    private void Run()
+    {
+        if (Runing)
+        {
+            Speed *= 2;
+            StartCoroutine(WaitForStop());
+            animator.SetBool("RunStop", false);
+        }
+        else
+        {
+            if (Speed > 4.9f)
+            {
+                Speed /= 2;
+                animator.SetBool("RunStop",true);
+            }
+        }
+    }
+    private IEnumerator WaitForStop()
+    {
+        yield return new WaitUntil(() => Input.GetAxis("Horizontal") == 0);
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            StartCoroutine(WaitForStop());
+            animator.SetBool("Flip", true);
+            yield break;
+        }
+        if(!Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
+        {
+              animator.SetBool("Flip", false);
+              Runing = false;
+             Run();
+            yield break;
         }
     }
     private IEnumerator Parry()
@@ -139,9 +181,11 @@ public class Movement : Health
     {
         if (GroundCheck.Instance.GetOnGround() && States != PlayerStates.Crouch)
         {
-          //Physick.velocity = new Vector2(Physick.velocity.x, 0);
+            animator.SetTrigger("Jumping");
+            Physick.velocity = new Vector2(Physick.velocity.x, 0);
             Physick.AddForce(transform.up * Force, ForceMode2D.Impulse);
             DoubleJump = true;
+            GroundCheck.Instance.Flyed = true;
             Jumped = true;
             States = PlayerStates.Jump;
         }else if (DoubleJump && CanDoubleJump)
@@ -219,7 +263,7 @@ public class Movement : Health
         }
         yield break;
     }
-    private IEnumerator Dash()
+ /*   private IEnumerator Dash()
     {
         if(States != PlayerStates.Crouch && CanDash)
         {
@@ -233,7 +277,7 @@ public class Movement : Health
             yield break;
         }
         yield break;
-    }
+    }*/
     private void Using()
     {
         UsableEntity?.Use();

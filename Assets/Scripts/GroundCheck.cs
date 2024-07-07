@@ -6,8 +6,9 @@ public class GroundCheck : MonoBehaviour
 {
     public float JumpDelay = 0.1f;
     private int GroundLayer = 6,FlagileLayer = 10;
-    private bool OnGround = false, StopingCoroutine = false;
+    private bool OnGround = false,StopCoroutine = false;
     public static GroundCheck Instance;
+    [HideInInspector] public bool Flyed = false;
     private Movement Player;
     private void Awake() => Instance = this;
     private void Start() => Player = Movement.Instance;
@@ -33,7 +34,10 @@ public class GroundCheck : MonoBehaviour
     {
         if (collision.gameObject.layer == GroundLayer || collision.gameObject.layer == FlagileLayer)
         {
-            if(!StopingCoroutine && !Player.Jumped) StartCoroutine(Delay());
+            if (!Player.Jumped && !StopCoroutine)
+            {
+                StartCoroutine(Delay());
+            }
             if (Player.Jumped)
             {
                 OnGround = false;
@@ -45,11 +49,18 @@ public class GroundCheck : MonoBehaviour
     {
         yield return new WaitForSeconds(JumpDelay);
         OnGround = false;
+        RaycastHit2D raycastHit2 = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y -0.1f), Vector2.down);
+        if (!Player.Jumped && !GetOnGround() && raycastHit2.distance > 1f)
+        {
+            Flyed = true;
+            Movement.Instance.animator.SetTrigger("Fly");
+        }
         yield break;
 
     }
     private void OnApplicationQuit()
     {
-        StopingCoroutine = true;
+        StopCoroutine = true;
+        StopAllCoroutines();
     }
 }

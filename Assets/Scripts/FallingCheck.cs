@@ -5,23 +5,42 @@ using UnityEngine;
 public class FallingCheck : MonoBehaviour
 {
     private Movement Player;
-    [SerializeField] private float DamageStartedOn = -12.4f;
+    [SerializeField] private float HeightToDamage = 7;
     [SerializeField] private int OneBlockDamage = 10;
     private int FinaleDamage = 10;
+    private Vector2 ExitPoint, EnterPoint;
 
-    private void Start() => Player = Movement.Instance;
+    private void Start()
+    {
+        Player = Movement.Instance;
+        ExitPoint = transform.position;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(Player.Physick.velocity.y < DamageStartedOn)
+        EnterPoint = transform.position;
+        if (GroundCheck.Instance.Flyed)
         {
-            Vector2 vel = Player.Physick.velocity;
-            float cons = (vel.y - DamageStartedOn) / 2f;
-            int Blocks = (int)(cons) * -1;
-            if(Blocks > 1)
+            Player.animator.SetTrigger("Landing");
+            GroundCheck.Instance.Flyed = false;
+        }
+        if (Vector2.Distance(ExitPoint, EnterPoint) > HeightToDamage && ExitPoint.y > EnterPoint.y)
+        {
+            Debug.Log(Vector2.Distance(ExitPoint, EnterPoint));
+            float Whole = Mathf.Floor(Vector2.Distance(ExitPoint, EnterPoint));
+            Debug.Log(Whole);
+            if (Whole != HeightToDamage)
             {
-                FinaleDamage = OneBlockDamage * Blocks;
+                FinaleDamage = (int)(Whole - HeightToDamage) * OneBlockDamage;
+            }
+            else
+            {
+                FinaleDamage = OneBlockDamage;
             }
             Player.ApplyDamage(FinaleDamage);
         }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        ExitPoint = transform.position;
     }
 }

@@ -1391,7 +1391,7 @@ Transform:
   m_GameObject: {fileID: 3366488475137836035}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.819, z: 0}
+  m_LocalPosition: {x: 0, y: 0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1557,7 +1557,7 @@ Transform:
   m_GameObject: {fileID: 3692109495919512001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0971, y: 0.18772, z: 0}
+  m_LocalPosition: {x: 0.0971, y: -0.34128004, z: 0}
   m_LocalScale: {x: 3.0257208, y: 3.0257208, z: 3.0257208}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1609,8 +1609,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.002992194, y: -0.07043457}
-  m_Size: {x: 0.045955412, y: 0.086335115}
+  m_Offset: {x: 0.002992194, y: -0.0763212}
+  m_Size: {x: 0.045955412, y: 0.09810837}
   m_Direction: 0
 --- !u!1 &3701552916460590714
 GameObject:
@@ -1961,7 +1961,7 @@ Transform:
   m_GameObject: {fileID: 3928849781719528940}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.011998, y: 0.469, z: 0}
+  m_LocalPosition: {x: 0.011998, y: -0.060000032, z: 0}
   m_LocalScale: {x: 0.475, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2568,7 +2568,7 @@ Transform:
   m_GameObject: {fileID: 4786726214307298120}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.119, z: 0}
+  m_LocalPosition: {x: -0.03, y: -0.41000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2587,6 +2587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpDelay: 0.3
+  Flyed: 0
 --- !u!70 &4879723078537220623
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3011,7 +3012,7 @@ Transform:
   m_GameObject: {fileID: 5334373053409737944}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.412, y: 0.402, z: 0}
+  m_LocalPosition: {x: 0.412, y: -0.12700003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3030,6 +3031,7 @@ GameObject:
   - component: {fileID: 5671937918747568388}
   - component: {fileID: 5198350936503410698}
   - component: {fileID: 360103047234540034}
+  - component: {fileID: 6153702498360006388}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3098,9 +3100,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 51018ebba84267143b38f2f674e6e84e, type: 3}
+  m_Sprite: {fileID: 963167021, guid: b6b25c13fbd68dc458dc9abf7415aa2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 2}
@@ -3129,8 +3131,9 @@ MonoBehaviour:
   Amulet: 0
   BlocPercentage: 20
   Difference: 0
+  animator: {fileID: 0}
   Physick: {fileID: 0}
-  Speed: 5
+  Speed: 2.5
   Force: 9.5
   DashForce: 20
   DashTime: 0.2
@@ -3154,6 +3157,7 @@ MonoBehaviour:
   AttackPoint: {fileID: 5228579299524376349}
   CanDoubleJump: 0
   CanAttack: 1
+  Runing: 0
   CanJump: 1
   Hidden: 0
   IsTouchingLadder: 0
@@ -3220,9 +3224,30 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03707385, y: 0.5065465}
-  m_Size: {x: 0.28902578, y: 0.8170085}
+  m_Offset: {x: 0.03483963, y: -0.029934645}
+  m_Size: {x: 0.28152847, y: 0.8001423}
   m_Direction: 0
+--- !u!95 &6153702498360006388
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5461278727994370176}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d686af94df70e54984e43e201db4f56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5896049719325490767
 GameObject:
   m_ObjectHideFlags: 0
