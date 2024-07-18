@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: f575d7e76c18d1442bbbae842db12bb7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2232
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb1e5834660ccd43ba093861de1d8c9
+      internalID: 1265385165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2232
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c9aa470e315dd4eacca828f98d257c
+      internalID: 1434490196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2232
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b20981ee93e392489a65fa620cbb982
+      internalID: 1490338670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 2232
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3943a6359a5614e80265be54794843
+      internalID: -1369111813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 2232
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131986743ae563040b0952f716d651a9
+      internalID: 1791403167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 2232
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af32b6382abd454f9a3287edccdf79e
+      internalID: -25367866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be966704a5110614e9bbdc782c7d0a8d
+      internalID: 890258337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1488
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab68762aa07ad44a1d3093fb11e4dd
+      internalID: -1373179687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1488
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1399d218d873af44a0b18026aa50c12
+      internalID: 326857928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1488
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b5241af0ccced4eb796477bddbf0ef
+      internalID: -1108680049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 1488
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0060490a9e08c4d9b93ac6ac4257e7
+      internalID: 1032429648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 1488
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cee1ad629875d47a0986393b57ed21
+      internalID: -237772446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33f051dd8876fb469ced311a8a2b9d9
+      internalID: -1003506987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 744
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d0bd5ef4b33554381c3e318864d88a
+      internalID: 1289193130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 744
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2531b32695f7f749a9341370b82ecbc
+      internalID: 478428744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 744
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6abc3fdc120a384fbe39b6b30d0afdd
+      internalID: -715003051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 744
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8610e4778061e3c4c91fb2fe3ac74e70
+      internalID: 2027219855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 744
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313fcb6823395374c97303fa1fd48b15
+      internalID: -1898177144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43061e329ed980749b1694bf13e10058
+      internalID: 1427501473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SanctuaryAnimationSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 613
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe15954a6d52646a7fa92104b781fa
+      internalID: -1044581326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SanctuaryAnimationSpriteSheet_0: 1265385165
+      SanctuaryAnimationSpriteSheet_1: 1434490196
+      SanctuaryAnimationSpriteSheet_10: 1032429648
+      SanctuaryAnimationSpriteSheet_11: -237772446
+      SanctuaryAnimationSpriteSheet_12: -1003506987
+      SanctuaryAnimationSpriteSheet_13: 1289193130
+      SanctuaryAnimationSpriteSheet_14: 478428744
+      SanctuaryAnimationSpriteSheet_15: -715003051
+      SanctuaryAnimationSpriteSheet_16: 2027219855
+      SanctuaryAnimationSpriteSheet_17: -1898177144
+      SanctuaryAnimationSpriteSheet_18: 1427501473
+      SanctuaryAnimationSpriteSheet_19: -1044581326
+      SanctuaryAnimationSpriteSheet_2: 1490338670
+      SanctuaryAnimationSpriteSheet_3: -1369111813
+      SanctuaryAnimationSpriteSheet_4: 1791403167
+      SanctuaryAnimationSpriteSheet_5: -25367866
+      SanctuaryAnimationSpriteSheet_6: 890258337
+      SanctuaryAnimationSpriteSheet_7: -1373179687
+      SanctuaryAnimationSpriteSheet_8: 326857928
+      SanctuaryAnimationSpriteSheet_9: -1108680049
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

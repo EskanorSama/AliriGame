@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec470aa671fff84419cfb7a2cdfdd0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DamageStartedOn: -12.2
+  HeightToDamage: 7
   OneBlockDamage: 10
 --- !u!70 &3296640175956419758
 CapsuleCollider2D:
@@ -3133,7 +3133,7 @@ MonoBehaviour:
   Difference: 0
   animator: {fileID: 0}
   Physick: {fileID: 0}
-  Speed: 2.5
+  Speed: 3
   Force: 9.5
   DashForce: 20
   DashTime: 0.2

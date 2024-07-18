@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 8425276e294979948a7879cf127d950a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd25acfdbf33c74bbf33e209b92de83
+      internalID: 506792502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1208
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d3639193369cd4b9b3eb0e8ddee752
+      internalID: 1395744922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 1208
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35765c1ef8b3fe141919918156c7b3cb
+      internalID: 442724432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 1208
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6fde835da344145853103ed6643649
+      internalID: 4924762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92ad4fb53f23e1418f4c5548eb00835
+      internalID: 367715190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 906
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9a0d36e1dc38a418c151a843484944
+      internalID: 1910576989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 906
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20b47d8b545ae84e9f5442c16e8f31e
+      internalID: -200124672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 906
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ceebf3613c96f43a8dc6accea02602
+      internalID: 1339376633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6822ac06e8289146a16caf8a76b1b2a
+      internalID: -1300999237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 604
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b48f8e37dce9c41861acbe763e8f8c
+      internalID: 1180784728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 604
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b83b20898e3ce488797327b1d62cc2
+      internalID: 1397494002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 604
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f69660d4cb4f9e4d901c10356e2a25b
+      internalID: -1888122048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cd4bbf79f5414498f916bbf1cf808e
+      internalID: -1569437679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 302
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c86f2fffe0354140aa27b6109e8f55e
+      internalID: 464508003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 302
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fac03caf75f8e4cb0a47856c5de442
+      internalID: 45562351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 302
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04032c669c0f7fb45a67fa45cc8c341b
+      internalID: -1548450980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773d38466de964a40b63dfe351640c3d
+      internalID: 1770542432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 0
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f3177b73993704abe4a6ee42ee545d
+      internalID: 213560590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 0
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73b12b27b4950f42bb2482ef04797af
+      internalID: -1280281381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplitLeafPlatform3SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 0
+        width: 899
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40c4877a7aaab84c806f310ca70a168
+      internalID: -414382957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SplitLeafPlatform3SpriteSheet_0: 506792502
+      SplitLeafPlatform3SpriteSheet_1: 1395744922
+      SplitLeafPlatform3SpriteSheet_10: 1397494002
+      SplitLeafPlatform3SpriteSheet_11: -1888122048
+      SplitLeafPlatform3SpriteSheet_12: -1569437679
+      SplitLeafPlatform3SpriteSheet_13: 464508003
+      SplitLeafPlatform3SpriteSheet_14: 45562351
+      SplitLeafPlatform3SpriteSheet_15: -1548450980
+      SplitLeafPlatform3SpriteSheet_16: 1770542432
+      SplitLeafPlatform3SpriteSheet_17: 213560590
+      SplitLeafPlatform3SpriteSheet_18: -1280281381
+      SplitLeafPlatform3SpriteSheet_19: -414382957
+      SplitLeafPlatform3SpriteSheet_2: 442724432
+      SplitLeafPlatform3SpriteSheet_3: 4924762
+      SplitLeafPlatform3SpriteSheet_4: 367715190
+      SplitLeafPlatform3SpriteSheet_5: 1910576989
+      SplitLeafPlatform3SpriteSheet_6: -200124672
+      SplitLeafPlatform3SpriteSheet_7: 1339376633
+      SplitLeafPlatform3SpriteSheet_8: -1300999237
+      SplitLeafPlatform3SpriteSheet_9: 1180784728
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
