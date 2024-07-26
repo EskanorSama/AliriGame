@@ -65,7 +65,7 @@ public abstract class Health : MonoBehaviour
     {
         if (IsPlayer)
         {
-            SceneManagment.Instance.RestartLevel();
+            Saver.Instance.Load();
         }
         else
         {

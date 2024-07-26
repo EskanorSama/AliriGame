@@ -25,9 +25,7 @@ public class FallingCheck : MonoBehaviour
         }
         if (Vector2.Distance(ExitPoint, EnterPoint) > HeightToDamage && ExitPoint.y > EnterPoint.y)
         {
-            Debug.Log(Vector2.Distance(ExitPoint, EnterPoint));
             float Whole = Mathf.Floor(Vector2.Distance(ExitPoint, EnterPoint));
-            Debug.Log(Whole);
             if (Whole != HeightToDamage)
             {
                 FinaleDamage = (int)(Whole - HeightToDamage) * OneBlockDamage;
