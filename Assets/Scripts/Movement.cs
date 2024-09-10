@@ -20,9 +20,9 @@ public class Movement : Health
     private IUsable UsableEntity;
     [SerializeField] private bool CanDoubleJump = true,CanAttack = true,Runing = false;
     private bool CanDash = true, DoubleJump, CanStepBack = true, CanSneak = true;
-    [HideInInspector] public bool CanJump = true,Hidden = false, IsTouchingLadder = false,Jumped = false;
+    [HideInInspector] public bool CanJump = true,Hidden = false, IsTouchingLadder = false,Jumped = false,Forced = false;
     private Transform Transforming;
-    [HideInInspector] public float AttackCooldown = 0.5f, StrongAttackCooldown = 2f;
+    [HideInInspector] public float AttackCooldown = 0.5f;
     public int Damage = 15;
     public static Movement Instance { get; private set; }
 
@@ -68,18 +68,23 @@ public class Movement : Health
         if (Input.GetKeyDown(KeyCode.X ))
         {
             Attack();
-            StartCoroutine(AttackingCooldown(AttackCooldown));
         }
         if (Input.GetKeyDown(KeyCode.V))
         {
             Blockign();
         }
-        if (Input.GetKeyUp(KeyCode.V))
-        {
-            Blockign();
-        }
         animator.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal") * Speed));
-    } 
+    }
+    private void FixedUpdate()
+    {
+        if (States == PlayerStates.Dash)
+        {
+            return;
+        }
+        if(!Forced)Physick.velocity = new Vector2(Input.GetAxis("Horizontal") * Speed, Physick.velocity.y);
+        if (IsTouchingLadder) Physick.velocity = new Vector2(Physick.velocity.x, Input.GetAxis("Vertical") * Speed);
+        Flip();
+    }
     private void Blockign()
     {
         Block = !Block;
@@ -113,13 +118,13 @@ public class Movement : Health
     private IEnumerator WaitForStop()
     {
         yield return new WaitUntil(() => Input.GetAxis("Horizontal") == 0);
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A))
         {
             StartCoroutine(WaitForStop());
             animator.SetBool("Flip", true);
             yield break;
         }
-        if(!Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
+        if(!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
               animator.SetBool("Flip", false);
               Runing = false;
@@ -133,16 +138,6 @@ public class Movement : Health
         yield return new WaitForSeconds(ParryTiming);
         IdealParryTiming = false;
         yield break;
-    }
-    private void FixedUpdate()
-    {
-        if(States == PlayerStates.Dash)
-        {
-            return;
-        }
-        Physick.velocity = new Vector2(Input.GetAxis("Horizontal") * Speed, Physick.velocity.y);
-        if(IsTouchingLadder) Physick.velocity = new Vector2(Physick.velocity.x, Input.GetAxis("Vertical") * Speed);
-        Flip();
     }
     private void Flip()
     {
@@ -168,6 +163,7 @@ public class Movement : Health
                     coll.GetComponent<Health>().ApplyDamage(Damage);
                 }
             }
+            StartCoroutine(AttackingCooldown(AttackCooldown));
         }
     }
     private IEnumerator AttackingCooldown(float second)
@@ -320,4 +316,8 @@ public class Movement : Health
        //
     }
 
+    public override void OnDeath()
+    {
+        //
+    }
 }

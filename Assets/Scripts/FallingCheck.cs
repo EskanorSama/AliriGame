@@ -23,22 +23,27 @@ public class FallingCheck : MonoBehaviour
             Player.animator.SetTrigger("Landing");
             GroundCheck.Instance.Flyed = false;
         }
-        if (Vector2.Distance(ExitPoint, EnterPoint) > HeightToDamage && ExitPoint.y > EnterPoint.y)
+        if (!collision.isTrigger)
         {
-            float Whole = Mathf.Floor(Vector2.Distance(ExitPoint, EnterPoint));
-            if (Whole != HeightToDamage)
+            if (Vector2.Distance(ExitPoint, EnterPoint) > HeightToDamage && ExitPoint.y > EnterPoint.y)
             {
-                FinaleDamage = (int)(Whole - HeightToDamage) * OneBlockDamage;
+                Debug.Log(1);
+                float Whole = Mathf.Floor(Vector2.Distance(ExitPoint, EnterPoint));
+                Debug.Log(Whole);
+                if (Whole != HeightToDamage)
+                {
+                    FinaleDamage = (int)(Whole - HeightToDamage) * OneBlockDamage;
+                }
+                else
+                {
+                    FinaleDamage = OneBlockDamage;
+                }
+                Player.ApplyDamage(FinaleDamage);
             }
-            else
-            {
-                FinaleDamage = OneBlockDamage;
-            }
-            Player.ApplyDamage(FinaleDamage);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        ExitPoint = transform.position;
+        if(!collision.isTrigger)ExitPoint = transform.position;
     }
 }

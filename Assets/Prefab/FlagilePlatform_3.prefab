@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeToDestroy: 1
-  TimeToRespawn: 2
+  TimeToRespawn: 3
   DestroyPaticle: {fileID: 6244937769577309955, guid: 0d90f646672e3bd4486af6ef23de6a54, type: 3}
 --- !u!61 &2733159389668117514
 BoxCollider2D:

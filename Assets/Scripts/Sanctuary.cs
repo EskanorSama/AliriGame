@@ -12,7 +12,6 @@ public class Sanctuary : MonoBehaviour, IUsable
     public void Use()
     {
         OpenSanctuary();
-        Saver.Instance.Save(transform.position);
     }
 
     private void OpenSanctuary()
@@ -23,6 +22,7 @@ public class Sanctuary : MonoBehaviour, IUsable
         Enter = !Enter;
         if (Enter)
         {
+            Saver.Instance.Save(transform.position);
             Movement.Instance.Freeze();
             CameraMove.Instance.MoveRight();
             CameraMove.Instance.Lock = true;

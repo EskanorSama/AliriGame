@@ -1,0 +1,1623 @@
+fileFormatVersion: 2
+guid: 7c795cbd9d3743244a26d74a288896e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e34ea0adb0d1fe4191fa2577895d1c3
+      internalID: -1078041969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f0f26d69453f640a1e54de84afd2cd
+      internalID: -776747448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e7505fcfdd1dc4e87b4f13ec9b40ba
+      internalID: -1649011102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca19fd66adffee240b776d01d133dfe9
+      internalID: -828731109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bf3232383ae384cbc719f1b0d1f7c4
+      internalID: 509965712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1abd8183805e5446a5028388304c651
+      internalID: 594593722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eb846116861e64e8b621c6a9ded97a
+      internalID: 832469169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 5696
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bf6e6c30ec1c041a619485ae43eb69
+      internalID: 1492216876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394a41d4777d4049b92a6e91b8b9e64
+      internalID: 48366479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3cd6f91a8e0ce4cbb55d10162cbded
+      internalID: -1574689385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b89b88a747026439dd3996c6544aad
+      internalID: -894692078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05f910e415dece469ad1d8e44016574
+      internalID: 1589458210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e014ead02a623d44ea70f3d849684bf2
+      internalID: -752448202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9976c1b7f65f844ba5be884278ee05f
+      internalID: 1015406188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8239a11ccb29a84499f5d6a75799354c
+      internalID: -2004740244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 4984
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77589446e1b999e4c86f414e91191fc3
+      internalID: -1501884576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0943132e4d3cfb429445ff236552e41
+      internalID: 690735073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387cc55d653e5c940aff4597392c40cb
+      internalID: -1651313430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfab5012064f109469d8e6e92aa32819
+      internalID: -1298872797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d944ce0c5899794f8104d61df430090
+      internalID: -1613018442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bad1f9fe0f5d3840858d1be2f12b10a
+      internalID: 853857617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a67f040d8fb6f249bef7f13d9dd0490
+      internalID: -750011870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f43f1fe135dac74baff3c3c319dfbae
+      internalID: -116397131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 4272
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c030431f343cf245834e60e2c7ee833
+      internalID: 1759989692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e57577136bba3343904e2efe588bdf7
+      internalID: -587831247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20de3fb828e9044a8a0e8095d060eda
+      internalID: 495819208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fefc35c83e81f84a98d4bc111019b66
+      internalID: 2070149141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef541e7040069847827fddae2620c31
+      internalID: 785772787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b0dded2ee59484ead2ca7a582da697
+      internalID: -231008799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d24f7571a3ef0e439b071fde23ce28a
+      internalID: -1736799737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ed3fa3678ed65438470d5841d68da7
+      internalID: 490688180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 3560
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c6f94ee3a3b904385e42af858a0861
+      internalID: -1800621153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20217918d3eeeb34594ac7621397fbb3
+      internalID: -831458009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9e9ed62d237c343b434a7c7819b3f3
+      internalID: 131746608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6db9d83ca5acbe408eed409655052df
+      internalID: -1966684376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdac9a1d6196b6438d6877749646f33
+      internalID: 1644154784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4084436c3c7f5cc4a84db4f6dc8697a3
+      internalID: -883969856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972392bbfc39dd2489506109050b75fc
+      internalID: -72257822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5479148cc1330b4cb35256a866fe87b
+      internalID: -642234997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 2848
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21ff2061a1758449861d9ab848697f
+      internalID: 1147136370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015525e8be740b4439595177102ae399
+      internalID: -1848155139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a37c7bcd022434f93db972a62c0df6
+      internalID: 876850889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9a143b431bd1c49b5200478f30f040
+      internalID: 1646460356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421e09406c5e5cf46b5048fad9f8219b
+      internalID: -1398400975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7baf7adee38b64f83c7759e603f31a
+      internalID: 1268238140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323e64bd3ba4a824086ff9705f8ad28b
+      internalID: -1522888607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4ebf1f2e8a30245bb67071c0679cba
+      internalID: 1165406968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 2136
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a971a9614ba60a49924f7c70e795e5b
+      internalID: -116243502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ca42a4e1c55364094c8d18dc64cc59
+      internalID: 1093780526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069c83e565cc2274bbd08f0bceffbcdc
+      internalID: -856108115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5799f5bd5df402947926faacc07222e6
+      internalID: -1044434837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c108225ba261b2d48af4a4308bc44ec1
+      internalID: 1029386326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877bc6a11d4b0b44ca9729f8b0a07419
+      internalID: -1252686386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0cd6c30f380a2468039b5a8c68dd28
+      internalID: 971811163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e1fbfc78aadef45981ef8e7ffa70fc
+      internalID: -1248857676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 1424
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e957655a414547b65fadce6eb5bc9
+      internalID: 1826989029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caf617b00e987340849ba9e6d747762
+      internalID: 112490428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7ce668dbc46e74c9f25118b38f88f4
+      internalID: -1310089939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2d2c2ab98af2d4e848f7ddae360ccd
+      internalID: -247791311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186ff1a69d5ee574bb06a64c2c15e311
+      internalID: -1851410895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59310b3a9257a09479eec442b178ebb1
+      internalID: -329945448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead0e7895915dd24ca9ffac9ed25931c
+      internalID: -80199279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc81915198a9b04096c6d546b9f9644
+      internalID: -659769762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 712
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68aee33f7701394a802b580f4c7b169
+      internalID: -1595209823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da28e8c2bff0924bacd18f78d7441fb
+      internalID: -1451894139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 0
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c982b45c540ea4b8b0159b817201a3
+      internalID: 1652361391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 0
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04ad2525b7f8344caf9a4b9312534a3
+      internalID: -1745251911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRAD_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 0
+        width: 985
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddd7b5352e0d63489ce41aa1ace2b72
+      internalID: -1588159142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CatRAD_SpriteSheet_0: -1078041969
+      CatRAD_SpriteSheet_1: -776747448
+      CatRAD_SpriteSheet_10: -894692078
+      CatRAD_SpriteSheet_11: 1589458210
+      CatRAD_SpriteSheet_12: -752448202
+      CatRAD_SpriteSheet_13: 1015406188
+      CatRAD_SpriteSheet_14: -2004740244
+      CatRAD_SpriteSheet_15: -1501884576
+      CatRAD_SpriteSheet_16: 690735073
+      CatRAD_SpriteSheet_17: -1651313430
+      CatRAD_SpriteSheet_18: -1298872797
+      CatRAD_SpriteSheet_19: -1613018442
+      CatRAD_SpriteSheet_2: -1649011102
+      CatRAD_SpriteSheet_20: 853857617
+      CatRAD_SpriteSheet_21: -750011870
+      CatRAD_SpriteSheet_22: -116397131
+      CatRAD_SpriteSheet_23: 1759989692
+      CatRAD_SpriteSheet_24: -587831247
+      CatRAD_SpriteSheet_25: 495819208
+      CatRAD_SpriteSheet_26: 2070149141
+      CatRAD_SpriteSheet_27: 785772787
+      CatRAD_SpriteSheet_28: -231008799
+      CatRAD_SpriteSheet_29: -1736799737
+      CatRAD_SpriteSheet_3: -828731109
+      CatRAD_SpriteSheet_30: 490688180
+      CatRAD_SpriteSheet_31: -1800621153
+      CatRAD_SpriteSheet_32: -831458009
+      CatRAD_SpriteSheet_33: 131746608
+      CatRAD_SpriteSheet_34: -1966684376
+      CatRAD_SpriteSheet_35: 1644154784
+      CatRAD_SpriteSheet_36: -883969856
+      CatRAD_SpriteSheet_37: -72257822
+      CatRAD_SpriteSheet_38: -642234997
+      CatRAD_SpriteSheet_39: 1147136370
+      CatRAD_SpriteSheet_4: 509965712
+      CatRAD_SpriteSheet_40: -1848155139
+      CatRAD_SpriteSheet_41: 876850889
+      CatRAD_SpriteSheet_42: 1646460356
+      CatRAD_SpriteSheet_43: -1398400975
+      CatRAD_SpriteSheet_44: 1268238140
+      CatRAD_SpriteSheet_45: -1522888607
+      CatRAD_SpriteSheet_46: 1165406968
+      CatRAD_SpriteSheet_47: -116243502
+      CatRAD_SpriteSheet_48: 1093780526
+      CatRAD_SpriteSheet_49: -856108115
+      CatRAD_SpriteSheet_5: 594593722
+      CatRAD_SpriteSheet_50: -1044434837
+      CatRAD_SpriteSheet_51: 1029386326
+      CatRAD_SpriteSheet_52: -1252686386
+      CatRAD_SpriteSheet_53: 971811163
+      CatRAD_SpriteSheet_54: -1248857676
+      CatRAD_SpriteSheet_55: 1826989029
+      CatRAD_SpriteSheet_56: 112490428
+      CatRAD_SpriteSheet_57: -1310089939
+      CatRAD_SpriteSheet_58: -247791311
+      CatRAD_SpriteSheet_59: -1851410895
+      CatRAD_SpriteSheet_6: 832469169
+      CatRAD_SpriteSheet_60: -329945448
+      CatRAD_SpriteSheet_61: -80199279
+      CatRAD_SpriteSheet_62: -659769762
+      CatRAD_SpriteSheet_63: -1595209823
+      CatRAD_SpriteSheet_64: -1451894139
+      CatRAD_SpriteSheet_65: 1652361391
+      CatRAD_SpriteSheet_66: -1745251911
+      CatRAD_SpriteSheet_67: -1588159142
+      CatRAD_SpriteSheet_7: 1492216876
+      CatRAD_SpriteSheet_8: 48366479
+      CatRAD_SpriteSheet_9: -1574689385
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

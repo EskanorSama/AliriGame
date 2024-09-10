@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: b9ab4ff06b9db5042b71eaa9760da03c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b2e09463564e248a68f0943e2d6d89
+      internalID: 854358245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 792
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e4c39c38671643b430d33bdc7c515
+      internalID: -1605319358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 792
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd76eb1f9a40024baf3c7bd670c1cf6
+      internalID: 1192540309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 792
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046639c98fede684485ac66f5f677f39
+      internalID: -1995415335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 792
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a670002be916e4dae731e15ca5771f
+      internalID: 1157600445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6e21d8e3e752a41974d8bbbbcf3bb8
+      internalID: -1394666853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 528
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44fcea0816d0c44b2a8c356cf40f02
+      internalID: 35024396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 528
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc95367c36581ed4e9ef4368808b0c3c
+      internalID: 736458418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 528
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723b9238a65e8a641b82b77e96fa5b01
+      internalID: -1641663851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 528
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbd77e72d0596c478630c7162e553f0
+      internalID: 608655994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7324a11b33f76946ad2a57bd6016be6
+      internalID: 646563463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 264
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549ffe6a21b7a4a458b2f0954f6d9548
+      internalID: -941775682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 264
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefa3249d5cfdcb48a473eeacd080792
+      internalID: 758779267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 264
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cafaee9e140054c83920144402999c
+      internalID: 1726865682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 264
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6241769f4c0f52c4ab8d67a184793b9a
+      internalID: 1863490032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26962469aa9a4645a8951dad5f04d5a
+      internalID: 1130249266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae003650aa4e4174a97c39c94235d98f
+      internalID: -534113106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be592eef464a8ad4ba8e7ece435c661b
+      internalID: 492020064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac10dba378259045956d9927706ab56
+      internalID: -1840042229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafPlatform4AnimationSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 262
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f4895f3364c64385cffb5b4367c59
+      internalID: 759031266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LeafPlatform4AnimationSpriteSheet_0: 854358245
+      LeafPlatform4AnimationSpriteSheet_1: -1605319358
+      LeafPlatform4AnimationSpriteSheet_10: 646563463
+      LeafPlatform4AnimationSpriteSheet_11: -941775682
+      LeafPlatform4AnimationSpriteSheet_12: 758779267
+      LeafPlatform4AnimationSpriteSheet_13: 1726865682
+      LeafPlatform4AnimationSpriteSheet_14: 1863490032
+      LeafPlatform4AnimationSpriteSheet_15: 1130249266
+      LeafPlatform4AnimationSpriteSheet_16: -534113106
+      LeafPlatform4AnimationSpriteSheet_17: 492020064
+      LeafPlatform4AnimationSpriteSheet_18: -1840042229
+      LeafPlatform4AnimationSpriteSheet_19: 759031266
+      LeafPlatform4AnimationSpriteSheet_2: 1192540309
+      LeafPlatform4AnimationSpriteSheet_3: -1995415335
+      LeafPlatform4AnimationSpriteSheet_4: 1157600445
+      LeafPlatform4AnimationSpriteSheet_5: -1394666853
+      LeafPlatform4AnimationSpriteSheet_6: 35024396
+      LeafPlatform4AnimationSpriteSheet_7: 736458418
+      LeafPlatform4AnimationSpriteSheet_8: -1641663851
+      LeafPlatform4AnimationSpriteSheet_9: 608655994
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

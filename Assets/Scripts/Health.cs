@@ -4,18 +4,18 @@ using UnityEngine;
 
 public abstract class Health : MonoBehaviour
 {
+    public SpriteRenderer _renderer;
+    private Material _default;
     [Header("HealthSYS")]
+    [SerializeField] private Material _flash;
+    [SerializeField] private float _flashDelay = 0.125f;
     [SerializeField]private int HealthCount,MaxHealth = 100;
     [SerializeField] private bool IsPlayer = false;
     [HideInInspector] public bool Block = false, IdealParryTiming = false, Amulet = false;
     [HideInInspector] public int BlocPercentage = 20, Difference;
     public abstract void OnDamaged(int damage);
+    public abstract void OnDeath();
 
-
-    private void Start()
-    {
-        HealthCount = MaxHealth;
-    }
     public int GetHealth()
     {
         return HealthCount;
@@ -40,6 +40,7 @@ public abstract class Health : MonoBehaviour
             {
                 damage -= (damage * BlocPercentage) / 100;
             }
+            StartCoroutine(Flash());
             HealthCount -= damage;
             if (HealthCount <= 0)
             {
@@ -51,12 +52,25 @@ public abstract class Health : MonoBehaviour
         OnDamaged(damage);
     }
 
+    private IEnumerator Flash()
+    {
+        if(_renderer == null)
+        {
+            _renderer = GetComponent<SpriteRenderer>();
+            _default = _renderer.material;
+        }
+        _renderer.material = _flash;
+        yield return new WaitForSeconds(_flashDelay);
+        _renderer.material = _default;
+        yield break;
+    }
+
     public void SetMaxHealth(int maxhealth)
     {
-       Difference = maxhealth - MaxHealth;
         MaxHealth = maxhealth;
         if (IsPlayer)
         {
+            Difference = maxhealth - MaxHealth;
             Heal(Difference);
             HealtDisplay.Instance.Display(HealthCount, MaxHealth);
         }
@@ -65,11 +79,13 @@ public abstract class Health : MonoBehaviour
     {
         if (IsPlayer)
         {
+            EchoSystem.Instance.DropEchoes();
             Saver.Instance.Load();
+            
         }
         else
         {
-            gameObject.SetActive(false);
+            OnDeath();
         }
     }
     public void Heal(int healcount)
