@@ -3,7 +3,7 @@ guid: 54503706a3b372e46b9051bbd3acd025
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,19 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -38157,12 +38170,12 @@ TextureImporter:
       name: DecorationSpriteSheet_44
       rect:
         serializedVersion: 2
-        x: 3691
-        y: 1396
-        width: 441
-        height: 743
+        x: 39
+        y: 2520
+        width: 2001
+        height: 521
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -38805,6 +38818,48 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
+    - serializedVersion: 2
+      name: DecorationSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2063
+        width: 1004
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d2a82f19f441f4fb1de827b391d91d
+      internalID: -1381056926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2084
+        width: 659
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022e2e11d89a60944b9b4954873b7cfc
+      internalID: 1004133537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -38857,6 +38912,8 @@ TextureImporter:
       DecorationSpriteSheet_43: 664698070
       DecorationSpriteSheet_44: -1416697323
       DecorationSpriteSheet_45: -1481161186
+      DecorationSpriteSheet_46: -1381056926
+      DecorationSpriteSheet_47: 1004133537
       DecorationSpriteSheet_5: -1699135670
       DecorationSpriteSheet_6: -1271678665
       DecorationSpriteSheet_7: -806644730
