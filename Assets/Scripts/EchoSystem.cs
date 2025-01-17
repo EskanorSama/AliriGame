@@ -53,7 +53,7 @@ public class EchoSystem : MonoBehaviour
         {
             for (int i = Echoes; i > 0; i--)
             {
-              _prevEchoes[i-1] =  Instantiate(_echo, Movement.Instance.transform.position, Quaternion.identity);
+              _prevEchoes[i-1] =  Instantiate(_echo, Player.Instance.transform.position, Quaternion.identity);
                 Echoes--;
                 Show();
             }

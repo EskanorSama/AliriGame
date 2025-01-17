@@ -24,7 +24,7 @@ public class Echo : MonoBehaviour
      }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponent<Movement>() != null && CanTake)
+        if(collision.GetComponent<Player>() != null && CanTake)
         {
             EchoSystem.Instance.AddEcho(1);
             Destroy(gameObject);
