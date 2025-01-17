@@ -3462,14 +3462,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 5461278727994370176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66dd3bd1ad0384a4d85c43fa4ec6ec3d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d724254e8a2f0b439ca4e7156c69805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _renderer: {fileID: 5223171613286128399}
   _flash: {fileID: 2100000, guid: 1993337da818c8b42ad6e13cc2857105, type: 2}
   _flashDelay: 0.125
-  HealthCount: 100
+  HealthCount: 0
   MaxHealth: 100
-  IsPlayer: 1
+  IsPlayer: 0
   Block: 0
   IdealParryTiming: 0
   Amulet: 0
@@ -3479,27 +3480,27 @@ MonoBehaviour:
   Physick: {fileID: 0}
   Speed: 3
   Force: 9.5
-  DashForce: 20
+  DashForce: 10
   DashTime: 0.2
   DashCoolDown: 2
-  AttackRange: 0.26
-  ParryTiming: 0.5
+  AttackRange: 3
+  ParryTiming: 0.1
   StepBackForce: 10
-  StepBackTime: 0.1
-  StepBackCoolDown: 2
+  StepBackTime: 0.2
+  StepBackCoolDown: 1
   SneakCoolDown: 0.5
   CeilingLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   AttackLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   GroundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 6
   TopPosition: {fileID: 8914315422888307859}
   AttackPoint: {fileID: 5228579299524376349}
-  CanDoubleJump: 0
+  CanDoubleJump: 1
   CanAttack: 1
   Runing: 0
   CanJump: 1
@@ -3508,7 +3509,7 @@ MonoBehaviour:
   Jumped: 0
   Forced: 0
   AttackCooldown: 0.5
-  Damage: 10
+  Damage: 15
 --- !u!50 &5198350936503410698
 Rigidbody2D:
   serializedVersion: 4
@@ -3892,7 +3893,7 @@ Transform:
   m_GameObject: {fileID: 6821218544371810422}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31.312683, y: -3.159, z: -10}
+  m_LocalPosition: {x: 29.378977, y: -9.627998, z: -15.656175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
