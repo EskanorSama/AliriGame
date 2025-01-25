@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public  abstract class Enemy : Health
+public  abstract class Enemy : OldHealth
 {
     [HideInInspector]public Rigidbody2D Physick;
     private Transform Transforming;

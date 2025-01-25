@@ -4,9 +4,9 @@ public class DeathZone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponent<Health>() != null)
+        if(collision.GetComponent<OldHealth>() != null)
         {
-            collision.GetComponent<Health>().ApplyDamage(10000);
+            collision.GetComponent<OldHealth>().ApplyDamage(10000);
         }
 
     }

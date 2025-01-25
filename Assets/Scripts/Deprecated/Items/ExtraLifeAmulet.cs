@@ -9,11 +9,11 @@ public class ExtraLifeAmulet : Item
     private void Start() => Id = 1;
     public override void OnStartInventoryUse()
     {
-        Player.Instance.GetComponent<Health>().SetMaxHealth(MaxHealth);
+        Player.Instance.GetComponent<OldHealth>().SetMaxHealth(MaxHealth);
     }
     public override void OnPullOut()
     {
-        Player.Instance.GetComponent<Health>().SetMaxHealth(DefaultHealth);
-        if (Player.Instance.GetComponent<Health>().GetHealth() > 100) Player.Instance.ApplyDamage(20);
+        Player.Instance.GetComponent<OldHealth>().SetMaxHealth(DefaultHealth);
+        if (Player.Instance.GetComponent<OldHealth>().GetHealth() > 100) Player.Instance.ApplyDamage(20);
     }
 }

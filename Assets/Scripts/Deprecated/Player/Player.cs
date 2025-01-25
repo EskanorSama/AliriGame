@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Player : Health
+public class Player : OldHealth
 {
     private enum PlayerStates 
     {
@@ -158,9 +158,9 @@ public class Player : Health
             Collider2D[] collider = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, AttackLayer);
             foreach (Collider2D coll in collider)
             {
-                if (coll.GetComponent<Health>() != null)
+                if (coll.GetComponent<OldHealth>() != null)
                 {
-                    coll.GetComponent<Health>().ApplyDamage(Damage);
+                    coll.GetComponent<OldHealth>().ApplyDamage(Damage);
                 }
             }
             StartCoroutine(AttackingCooldown(AttackCooldown));

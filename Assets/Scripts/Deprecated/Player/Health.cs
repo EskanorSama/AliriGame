@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Health : MonoBehaviour
+public abstract class OldHealth : MonoBehaviour
 {
     public SpriteRenderer _renderer;
     private Material _default;

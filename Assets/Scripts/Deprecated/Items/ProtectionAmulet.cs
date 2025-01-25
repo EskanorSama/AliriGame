@@ -5,10 +5,10 @@ public class ProtectionAmulet : Item
     private void Start() => Id = 3;
     public override void OnStartInventoryUse()
     {
-        Player.Instance.GetComponent<Health>().Amulet = true;
+        Player.Instance.GetComponent<OldHealth>().Amulet = true;
     }
     public override void OnPullOut()
     {
-        Player.Instance.GetComponent<Health>().Amulet = false;
+        Player.Instance.GetComponent<OldHealth>().Amulet = false;
     }
 }
