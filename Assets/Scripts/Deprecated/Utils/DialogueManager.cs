@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,16 +6,20 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     private Queue<string> Senteces;
-    [SerializeField] private Text NameText, DialogueText;
-    private Animator DialogBoxAnimator;
-    [Range(0.01f,0.2f)]
-    [SerializeField] private float LetterAppearanceTime = 0.1f;
+//    [SerializeField] private Text NameText, DialogueText;
+  //  private Animator DialogBoxAnimator;
+    //[Range(0.01f,0.2f)]
+   // [SerializeField] private float LetterAppearanceTime = 0.1f;
     private Dialogue _dialogue;
+    public static event Action StartedDialogueDisplay;
+    public static event Action EndedDialogueDisplay;
+    public static event Action<string> DisplayName;
+    public static event Action<string> DisplayDialogue;
 
 
     private void Start()
     {
-        DialogBoxAnimator = NameText.transform.parent.GetComponent<Animator>();
+     //   DialogBoxAnimator = NameText.transform.parent.GetComponent<Animator>();
         Senteces = new Queue<string>(); 
     }
     public void StartDialogue(Dialogue dialogue)
@@ -27,9 +30,10 @@ public class DialogueManager : MonoBehaviour
             _dialogue.Change = false;
             dialogue.Started = true;
             Player.Instance.Freeze();
-            DialogBoxAnimator.SetBool("IsOpen", true);
-            NameText.transform.parent.gameObject.SetActive(true);
-            NameText.text = dialogue.Name;
+            StartedDialogueDisplay?.Invoke();
+           // DialogBoxAnimator.SetBool("IsOpen", true);
+           // NameText.transform.parent.gameObject.SetActive(true);
+         //   NameText.text = dialogue.Name;
             Senteces.Clear();
 
             foreach (string sentence in dialogue.Sentences)
@@ -51,18 +55,19 @@ public class DialogueManager : MonoBehaviour
             _dialogue.Change = !_dialogue.Change;
             if (_dialogue.Change)
             {
-                NameText.text = _dialogue.Name;
+                DisplayName?.Invoke(_dialogue.Name);
             }
             else
             {
-                NameText.text = _dialogue.MainName;
+                DisplayName?.Invoke(_dialogue.MainName);
             }
         }
         string sentence = Senteces.Dequeue();
         StopAllCoroutines();
-        StartCoroutine(TypeSentences(sentence));
+        DisplayDialogue?.Invoke(sentence);
+       // StartCoroutine(TypeSentences(sentence));
     }
-    private IEnumerator TypeSentences(string sentence)
+ /*   private IEnumerator TypeSentences(string sentence)
     {
         DialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
@@ -70,12 +75,13 @@ public class DialogueManager : MonoBehaviour
             DialogueText.text += letter;
             yield return new WaitForSeconds(LetterAppearanceTime);
         }
-    }
+    }*/
     private void EndDialogue()
     {
         if (!_dialogue.Cyclic) _dialogue.PlayOnce = true;
         _dialogue.Started = false;
-        DialogBoxAnimator.SetBool("IsOpen", false);
+        EndedDialogueDisplay?.Invoke();
+       // DialogBoxAnimator.SetBool("IsOpen", false);
         Player.Instance.UnFreeze();
     }
 }

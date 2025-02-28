@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public TextMeshProUGUI Echo;
     [SerializeField] private GameObject LoseMenu;
     public static GameManager Instance;
     [HideInInspector] public bool CanRevive = false;
@@ -25,10 +24,4 @@ public class GameManager : MonoBehaviour
             LoseMenu.SetActive(true);
         }
     }
-
-    public void ShowEcho(int echo)
-    {
-        Echo.text = "Отголоски:" + echo.ToString();
-    }
-
 }

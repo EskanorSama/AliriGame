@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EchoSystem : MonoBehaviour
@@ -7,6 +8,7 @@ public class EchoSystem : MonoBehaviour
     public GameObject[] _prevEchoes = new GameObject[100];
 
     public static EchoSystem Instance { get; private set; }
+    public static event Action<int> DisplayEcho;
 
 
     private void Update()
@@ -24,21 +26,16 @@ public class EchoSystem : MonoBehaviour
     public void AddEcho(int echo)
     {
         Echoes += echo;
-        Show();
+        DisplayEcho(echo);
     }
     public void RemoveEcho(int echo)
     {
         Echoes -= echo;
-        Show();
+        DisplayEcho(echo);
     }
     public int GetEcho()
     {
         return Echoes;
-    }
-
-    private void Show()
-    {
-        GameManager.Instance.ShowEcho(Echoes);
     }
     public void DropEchoes()
     {
@@ -55,7 +52,7 @@ public class EchoSystem : MonoBehaviour
             {
               _prevEchoes[i-1] =  Instantiate(_echo, Player.Instance.transform.position, Quaternion.identity);
                 Echoes--;
-                Show();
+                DisplayEcho(Echoes);
             }
         }
     }

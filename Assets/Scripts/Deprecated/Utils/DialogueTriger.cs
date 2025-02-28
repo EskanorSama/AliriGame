@@ -9,7 +9,6 @@ public class DialogueTriger : MonoBehaviour,IUsable
     {
         if (collision.GetComponent<Player>() != null && !DialogByButton)
         {
-            Debug.Log("fasdfs");
             StartDialogue();
         }
     }
