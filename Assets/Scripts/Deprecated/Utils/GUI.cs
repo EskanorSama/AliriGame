@@ -51,6 +51,7 @@ public class GUI : MonoBehaviour
         DialogueManager.DisplayDialogue += DisplayDialogueSentences;
         DialogueManager.DisplayName += ChangeNameInDialogue;
         DialogueManager.StartedDialogueDisplay += StartDisplayDialogue;
+        EchoSystem.DisplayEcho += ShowEcho;
     }
     private void OnDisable()
     {
@@ -58,5 +59,6 @@ public class GUI : MonoBehaviour
         DialogueManager.DisplayDialogue -= DisplayDialogueSentences;
         DialogueManager.DisplayName -= ChangeNameInDialogue;
         DialogueManager.StartedDialogueDisplay -= StartDisplayDialogue;
+        EchoSystem.DisplayEcho -= ShowEcho;
     }
 }
